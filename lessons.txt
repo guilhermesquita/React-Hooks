@@ -1,0 +1,12 @@
+USESTATE:
+
+A função useState recebe um parâmetro (o valor inicial do estado ou uma função
+que retorna este valor) e retorna um array com duas posições, sendo a primeira
+delas o valor do estado e a segunda uma função que será responsável por alterar
+o valor deste estado.
+
+Uma característica deste hook é que podemos, na função que atualiza o state (setName), enviar uma função como argumento e nesta função, capturar o valor atual do state (name) da mesma forma que fazíamos com
+o setState nas classes.
+
+
+
