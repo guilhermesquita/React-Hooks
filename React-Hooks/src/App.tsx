@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 
+
 function App() {
  const [counter, setCounter] = useState(0); //Ou seja, o valor de counter = 0. o SetCounter serve apenas para alterar o valor de counter futuramente.
 
